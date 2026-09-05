@@ -1,0 +1,30 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+pydantic==2.10.4
+pydantic-settings==2.6.1
+
+# Database & Auth
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.14.1
+supabase==2.9.0
+python-jose[cryptography]==3.3.0
+
+# Celery & Redis
+celery==5.4.0
+redis==5.2.1
+
+# External APIs
+httpx==0.28.1
+anthropic==0.39.0      # Claude
+requests==2.32.3
+beautifulsoup4==4.12.3
+firecrawl-py==1.0.0    # assuming the official package; adjust if needed
+
+# Monitoring
+sentry-sdk==2.19.2
+
+# Utilities
+python-multipart==0.0.20
+email-validator==2.2.0
