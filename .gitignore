@@ -1,0 +1,8 @@
+
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
